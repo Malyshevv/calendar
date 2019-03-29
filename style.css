@@ -1,0 +1,54 @@
+.timepicker {
+  display: none;
+}
+
+.calendar .month-container {
+  display: inline-block;
+  margin:  15px;
+}
+
+.calendar-header {
+  display: none;
+}
+
+.calendar table.month th.month-title {
+  border-bottom: 2px solid #8d978e;
+}
+
+.calendar table.month th.day-header {
+  padding-top: 10px;
+  margin:  5px;
+  cursor: default;
+  font-size: 9pt !important;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.calendar table.month th.day-header:nth-child(7), .calendar table.month th.day-header:nth-child(6){
+  background-color: #e2907a;
+  color: white;
+}
+
+.month-container {
+  border: 1px solid #92c29d;
+  border-radius: 10px;
+  min-width: 240px !important;
+  padding: 10px 10px 10px 10px !important;
+  height: 260px !important;
+  background: #ebf5ec;
+}
+
+.month {
+  overflow: hidden;
+}
+
+.day {
+  background: #fff;
+  font-weight: bolder;
+  
+  margin:  10px;
+}
+
+body {
+  color: #227947 !important;
+}
